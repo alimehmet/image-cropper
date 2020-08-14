@@ -2,10 +2,13 @@
 Crops the given image according to the entered pixel values.
 
 Before
+
 ![pic](https://user-images.githubusercontent.com/29674277/90252696-9b231280-de48-11ea-8c81-f833e38ab2b3.jpg)
 
 After
+
 ![pic1](https://user-images.githubusercontent.com/29674277/90252735-ac6c1f00-de48-11ea-91ba-15609330a81b.jpg)
+
 
 Terminal(cmd if you'r in windows) command line
 
