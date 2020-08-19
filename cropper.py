@@ -17,7 +17,7 @@ def cropper(croppedHeight, croppedWidth):
          croppedImage = img.crop((croppedWidth*j, croppedWidth*i, croppedHeight*(j+1), croppedHeight*(i+1)))
          # Saving image to folder which created name as cropped_images   
          croppedImage.save(os.getcwd() + "/cropped_images/image" + str(nameCounter) + ".png")
-         print("[INFO] file created: "os.getcwd() + "/cropped_images/image" + str(nameCounter) + ".png")
+         print("[INFO] file created: " + os.getcwd() + "/cropped_images/image" + str(nameCounter) + ".png")
          # Adding one xAxisCounter and nameCounter after take a photo
          nameCounter  = nameCounter  + 1
 
